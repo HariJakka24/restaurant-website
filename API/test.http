@@ -1,0 +1,10 @@
+GET http://localhost:5003/item/getitems
+
+
+###
+POST http://localhost:5003/user/deletecartitem/hariJakka24
+Content-Type: application/json
+
+{
+    "itemName" : "Chicken Fry Piece Biryani"
+}

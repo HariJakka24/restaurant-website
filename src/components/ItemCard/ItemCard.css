@@ -1,0 +1,9 @@
+.popular .box-container .box .veg_display{
+    position: absolute;
+    top:1.875rem; right:1.875rem;
+    background: #fff;
+    /* color:rgb(9, 110, 9); */
+    font-size: 1.25rem;
+    padding:.5rem .625rem;
+    border-radius: .5rem;
+  }

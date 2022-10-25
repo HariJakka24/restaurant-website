@@ -1,0 +1,9 @@
+.login_page_styling{
+    background-image: linear-gradient(to right, rgba(57, 62, 63, 0.699),rgba(24, 26, 22, 0.616)), url("https://i.pinimg.com/originals/f5/25/ac/f525ac573c107b9cd337136af50ca2f3.jpg");
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}

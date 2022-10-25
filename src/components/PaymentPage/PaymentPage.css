@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.payment-page{
+    background-image:linear-gradient(to right, rgba(177, 239, 250, 0.699),rgba(178, 252, 59, 0.616)), url("https://www.investopedia.com/thmb/GGJSBh7YgXI9Uf1cZyhcr1NCzyU=/1333x1000/smart/filters:no_upscale()/GettyImages-1034323548-0e7ece8590ab48dc97e9016fdfa3a6dd.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.google-pay-icon{
+    color: transparent;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, rgb(52, 32, 201), rgb(15, 201, 46), yellow, rgb(231, 14, 14));
+    background-clip: text;
+    
+}
+.phonepe-icon{
+    color: blue;
+    font-weight:bold;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: .1rem;
+}
+.amazon{
+    font-size: 2rem;
+    color: black;
+}
+.amazon-image{
+    width: 2rem;
+    height: 2.2rem;
+}
+.paytm-image{
+    width: 5rem;
+    height: 3.3rem;
+    transform: translateY(-.9rem);
+}
+.price-details{
+    color: rgb(0, 0, 0);
+}

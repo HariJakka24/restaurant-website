@@ -1,0 +1,30 @@
+/* .footer-content ul li{
+    margin-left: -2rem;
+  } */
+  .link{
+      text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  /* footer styling starts */
+  /* @media screen and (max-width:1040px){
+    .footer-content h5,a,p{
+      font-size: 80%;
+    }
+    
+  }
+  @media screen and (max-width:1040px){
+    .footer-content h5,a,p{
+      font-size: 60%;
+    }
+  }
+  @media screen and (max-width:590px){
+    .footer-content h5,a,p{
+      font-size: 35%;
+    } */
+    /* .footer-content ul li:not(first-child){
+      margin-top: -.7rem;
+    } */
+  /* } */
+  /* footer styling starts */

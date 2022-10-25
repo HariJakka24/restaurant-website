@@ -1,0 +1,13 @@
+.profile_pic_view{
+    width: 5rem;
+    height: 5rem;
+}
+
+.signup_page_styling{
+    background-image: linear-gradient(to right, rgba(100, 101, 102, 0.699),rgba(94, 95, 92, 0.616)), url("https://wallpaperaccess.com/full/271681.jpg");
+    color: white;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}

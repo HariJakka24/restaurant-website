@@ -1,0 +1,26 @@
+.stick_to_top{
+  position: sticky;
+  top: 0;
+  /* left: 100%; */
+  /* background-color: blue; */
+  width: fit-content;
+  z-index: 1;
+  /* color: orangered; */
+}
+
+.rotate{
+transform: rotate(-90deg);
+margin-right: -3rem;
+}
+
+.order_tracking_messages{
+  display: flex;
+  align-items: center;
+}
+
+@media screen and ( min-width:600px ) {
+    .order_tracking_messages{
+      font-size: 2rem;
+    }
+  }
+  

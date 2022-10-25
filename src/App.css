@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --red:#ff3838;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+  transition:all .2s linear;
+}
+
+*::selection{
+  background:var(--red);
+  color:#fff;
+}
+
+html{
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.75rem;
+}
+
+body{
+  background:#f7f7f7;
+}
+
+section{
+  padding:1.25rem 9%;
+}
+
+.heading{
+  text-align: center;
+  font-size: 2.1875rem;
+  padding:.625rem;
+  color:#666;
+}
+
+.heading span{
+  color:var(--red);
+}
+
+.button, .button-primary, .button-success{
+  display: inline-block;
+  padding:.4rem 1.5rem;
+  border:.2rem solid var(--red);
+  color:var(--red);
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: .5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: .625rem;
+}
+.button-primary{
+  border:.2rem solid rgb(38, 0, 255);
+  color:rgb(38, 0, 255);
+}
+.button-success{
+  border:.2rem solid rgb(6, 100, 6);
+  color:rgb(6, 100, 6);
+}
+
+.button::before, .button-primary::before, .button-success::before{
+  content: '';
+  position: absolute;
+  top:0; right: 0;
+  width:0%;
+  height:100%;
+  background:var(--red);
+  transition: .3s linear;
+  z-index: -1;
+}
+.button-primary::before{
+  background:rgb(38, 0, 255);
+}
+.button-success::before{
+  background:rgb(6, 100, 6);
+}
+
+
+.button:hover::before, .button-primary:hover::before, .button-success:hover::before{
+  width:100%;
+  left: 0;
+}
+
+.button:hover, .button-primary:hover, .button-success:hover{
+  color:#fff;
+}
